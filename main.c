@@ -1,8 +1,12 @@
 #include <stdio.h>
 int main(){
-  printf("hello world!\n");
-  printf("hello world!\n");
-  printf("second commit test");
-  printf("test branch");
-  printf("test branch222");
+  int i, j;
+  for(i=0;i<9;i++)
+  {
+    for(j=0;j<9;j++)
+    {
+      printf("%d*%d=%d",i,j,i*j);
+    }
+    printf("\n");
+  }
 }
